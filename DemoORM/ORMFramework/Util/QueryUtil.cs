@@ -247,11 +247,11 @@ namespace ORMFramework.Util
 
                 case "decimal":
                 case "money":
-                case "nchar":
                 case "numeric":
                 case "smallmoney":
                     return "decimal";
 
+                case "nchar":
                 case "nvarchar":
                 case "ntext":
                 case "varchar":
